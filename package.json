@@ -4,7 +4,7 @@
   "description": "Simple mocha.js tutorial including istanbul test coverage",
   "scripts": {
     "test": "mocha",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+    "cover": "istanbul cover node_modules/_mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
