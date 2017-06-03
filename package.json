@@ -2,11 +2,11 @@
   "name": "learn-mocha",
   "version": "1.0.0",
   "description": "Simple mocha.js tutorial including istanbul test coverage",
- "scripts": {
+  "scripts": {
     "test": "mocha",
-    "cover": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/jce-il/learn-mocha.git"
   },
