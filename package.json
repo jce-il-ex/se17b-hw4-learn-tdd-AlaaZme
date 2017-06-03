@@ -6,6 +6,10 @@
     "test": "mocha",
     "cover": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jce-il/learn-mocha.git"
+  },
   "author": "nelsonic <nodecoder@gmail.com> (https://github.com/nelsonic)",
   "license": "ISC",
   "bugs": {
