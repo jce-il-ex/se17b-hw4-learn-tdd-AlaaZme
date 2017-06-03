@@ -2,13 +2,9 @@
   "name": "learn-mocha",
   "version": "1.0.0",
   "description": "Simple mocha.js tutorial including istanbul test coverage",
-  "scripts": {
+ "scripts": {
     "test": "mocha",
-    "cover": "istanbul cover node_modules\mocha\bin\mocha.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jce-il/learn-mocha.git"
+    "cover": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
   },
   "author": "nelsonic <nodecoder@gmail.com> (https://github.com/nelsonic)",
   "license": "ISC",
@@ -18,6 +14,6 @@
   "homepage": "https://github.com/jce-il/learn-mocha#readme",
   "devDependencies": {
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "mocha": "^3.4.2"
   }
 }
