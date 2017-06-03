@@ -1,23 +1,12 @@
 {
-  "name": "learn-mocha",
-  "version": "1.0.0",
-  "description": "Simple mocha.js tutorial including istanbul test coverage",
-  "scripts": {
-    "test": "mocha",
-    "cover": "istanbul cover node_modules\mocha\bin\mocha.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jce-il/learn-mocha.git"
-  },
-  "author": "nelsonic <nodecoder@gmail.com> (https://github.com/nelsonic)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jce-il/learn-mocha/issues"
-  },
-  "homepage": "https://github.com/jce-il/learn-mocha#readme",
+  "name": "learn-travis-AlaaZme",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "AlaaZme",
+  "version": "0.0.1",
   "devDependencies": {
-    "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
   }
 }
